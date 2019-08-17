@@ -8726,3 +8726,10 @@ a.theme-btn-on-bg:hover, a.theme-btn-on-bg:focus, a.theme-btn-on-bg:active, .the
     border-radius: 4px;
   }
 }
+
+.fixed-top-right {
+    position: fixed;
+    right: 10px;
+    top: 10px;
+    z-index: 101;
+}

@@ -20,10 +20,16 @@
     <!-- Theme CSS -->
     <link id="theme-style" rel="stylesheet" href="assets/css/pillar-6.css">
 
-
+    <!-- pdf print -->
+    <link rel="stylesheet" type="text/css" media="print" href="assets/css/print.css">
 </head>
 
 <body>
+    <div class="fixed-top-right">
+      <form method="get" action="assets/marhic_jerome_resume.pdf">
+        <button class="btn-primary" type="submit">Download PDF !</button>
+      </form>
+    </div>
 
     <article class="resume-wrapper text-center position-relative">
 	    <div class="resume-wrapper-inner mx-auto text-left bg-white shadow-lg">
@@ -68,7 +74,7 @@
 				    </div>
 			    </section><!--//summary-section-->
 			    <div class="row">
-				    <div class="col-lg-9">
+				    <div class="col-lg-9 print-page-break">
 					    <section class="resume-section experience-section mb-5">
 						    <h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Work Experience</h2>
 						    <div class="resume-section-content">
